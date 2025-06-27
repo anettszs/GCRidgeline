@@ -1,11 +1,8 @@
 # Globular Cluster Ridgeline
 
-This project focuses on the analysis of stellar data from globular clusters using data retrieved from the Gaia archive. There are two main jupyter notebooks.
-
-\begin{itemize}
-\item A data acquisition script that downloads relevant stellar parameters for a selected globular cluster.
-\item An analysis script that processes the data. It creates the color-magnitude diagram (CMD) of the cluster and then compresses it into a well-defined ridgeline.
-\end{itemize}
+This project focuses on the analysis of stellar data from globular clusters using data retrieved from the Gaia archive. There are two main jupyter notebooks:
+- A data acquisition script that downloads relevant stellar parameters for a selected globular cluster.
+- An analysis script that processes the data. It creates the color-magnitude diagram (CMD) of the cluster and then compresses it into a well-defined ridgeline.
 
 ## Contents
 

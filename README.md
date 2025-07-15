@@ -31,15 +31,16 @@ git clone https://github.com/anettszs/GCRidgeline.git
 
 ## Usage
 
-### Option 1.
+### Option 1. Jupyter or VS Code 
 
-Open the notebooks with Jupyter or VS Code to explore the analysis.
+Open the notebooks with Jupyter or VS Code to explore the analysis. (Or try Google Colab)
 
-### Option 2. 
+### Option 2. Virtual environment
 
 Steps to deal with modern Linux:
 
 1. You must create a virtual environment
+
 python3 -m venv astroenv
 
 2. Activate the virtual environment
@@ -47,7 +48,9 @@ source ~/astroenv/bin/activate
 
 3. within the virtual environment, install all dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 4. Establish a kernel tied to the virtual environment (in the command line at your terminal)
 
@@ -58,6 +61,37 @@ Installed kernelspec astroenv in /home/mjoyce/.local/share/jupyter/kernels/astro
 
 6. Once Jupyter notebook is launched, change the kernel within jupyter notebook:
 Kernel → Change kernel → Python (astroenv)
+
+### Option 3. Conda virtualenv version
+
+Using a conda virtual environment
+
+This part assumes that you have a version of Anaconda installed. We recommend the Miniconda distribution for the purposes of this package: https://www.anaconda.com/docs/getting-started/miniconda/install 
+
+1. First we create a conda virtual environment (you can replace 'astroenv' with the name of your choice):
+
+```bash
+conda create --name astroenv
+```
+
+If you want to specify python versions and other parameters here, consult the conda pages: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+2. Activate the environment: 
+
+```bash
+conda activate astroenv
+```
+
+3. And install the requirements in this new environment. 
+
+4. Establish a kernel tied to the virtual environment for Jupyter to recognize: 
+
+```bash
+python -m ipykernel install --user --name=astroenv --display-name "Python (astroenv)"
+```
+
+5. Open the notebooks in Jupyter notebook/lab and switch to the new kernel.
+
 
 ## Contents
 

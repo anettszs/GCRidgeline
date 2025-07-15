@@ -1,5 +1,8 @@
 # Globular Cluster Ridgeline
 
+## Function
+We present a new method and a corresponding code to compress the color magnitude diagram of globular clusters representative curve, called a ridgeline, that can be more readily compared to isochrone models, among other applications.
+
 ## Purpose
 
 This project focuses on the analysis of stellar data from globular clusters using data retrieved from the Gaia archive. There are two main jupyter notebooks:
@@ -41,7 +44,9 @@ Steps to deal with modern Linux:
 
 1. You must create a virtual environment
 
+```bash
 python3 -m venv astroenv
+```
 
 2. Activate the virtual environment
 source ~/astroenv/bin/activate
@@ -108,3 +113,13 @@ python -m ipykernel install --user --name=astroenv --display-name "Python (astro
 - matplotlib
 - numpy
 
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledge
+
+Special thanks to my mentors: @mjoyceGR @lacalaca85 @cskalup
+This research was supported by the ‘SeismoLab’ KKP-137523 grant and the TKP2021-NKTA-64 excellence grant
+of the Hungarian Research, Development and Innovation Office (NKFIH). A. S-Zs. acknowledges the undergraduate
+research assistant program of Konkoly Observatory.

@@ -119,7 +119,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledge
 
-Special thanks to my mentors: @mjoyceGR @lacalaca85 @cskalup
+Special thanks to my mentors: [@mjoyceGR](https://github.com/mjoyceGR), [@lacalaca85](https://github.com/lacalaca85), [@cskalup](https://github.com/cskalup)   
 This research was supported by the ‘SeismoLab’ KKP-137523 grant and the TKP2021-NKTA-64 excellence grant
 of the Hungarian Research, Development and Innovation Office (NKFIH). A. S-Zs. acknowledges the undergraduate
 research assistant program of Konkoly Observatory.

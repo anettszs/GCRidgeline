@@ -1,7 +1,7 @@
 # Globular Cluster Ridgeline
 
 ## Function
-We present a new method and a corresponding code to compress the color magnitude diagram of globular clusters representative curve, called a ridgeline, that can be more readily compared to isochrone models, among other applications. This compression method preserves the physical properties of the cluster, including the morphology of the CMD.
+We present a new method and a corresponding code to compress the color magnitude diagram of a globular cluster into a representative curve, called a ridgeline, that can be more readily compared to isochrone models, among other applications. This compression method preserves the physical properties of the cluster, including the morphology of the CMD.
 
 ## Purpose
 

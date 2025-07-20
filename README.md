@@ -1,7 +1,14 @@
-# Globular Cluster Ridgeline
+# Empirical Globular Cluster Ridgeline Construction on Gaia Data
 
 ## Function
 We present a new method and a corresponding code to compress the color magnitude diagram of a globular cluster into a representative curve, called a ridgeline, that can be more readily compared to isochrone models, among other applications. This compression method preserves the physical properties of the cluster, including the morphology of the CMD.
+
+## Related Publication
+
+This project accompanies the paper:
+*Anett Simon-Zsók and László Molnár and Csilla Kalup and Meridith Joyce, "Empirical Globular Cluster Ridgeline Construction on Gaia Data", 2025 *
+
+You can read the paper here: [https://arxiv.org/abs/2507.11244]
 
 ## Purpose
 

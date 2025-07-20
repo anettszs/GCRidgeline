@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this notebook, please cite it using the following metadata."
+title: "Empirical Globular Cluster Ridgeline Construction on Gaia Data"
+authors:
+  - family-names: Simon-Zsók
+    given-names: Anett
+    affiliation: HUN-REN CSFK, Konkoly Observatory, MTA Centre of Excellence(Konkoly Thege Miklós út 15-17, Budapest, 1121 Hungary), ELTE Eötvös Loránd University, Institute of Physics and Astronomy (Pázmány Péter sétány 1, Budapest, Hungary)
+    orcid: "https://orcid.org/0009-0008-5224-4820"
+date-released: 2025-07-15
+version: "1.0.0"
+url: "https://github.com/anettszs/GCRidgeline"
+license: "MIT"

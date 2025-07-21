@@ -8,5 +8,6 @@ authors:
     orcid: "https://orcid.org/0009-0008-5224-4820"
 date-released: 2025-07-15
 version: "1.0.0"
+doi: "10.5281/zenodo.16221509"
 url: "https://github.com/anettszs/GCRidgeline"
 license: "MIT"
